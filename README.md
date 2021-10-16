@@ -151,3 +151,10 @@ This results in code looking as below:
 1. Navigate to Lambda Applications and delete ``serverless-start`` application. This will prompt you with detailed instructions on deleting the application. Follow the instructions to delete all associated resources.
     ![deleteserverless](/images/deleteserverless.png)
 2. Navigate to the Cloud9 service and delete the ``cicdworkflowIDE`` environment.
+
+## Summary
+
+In this lab you learnt:
+- how to create a sample serverless application.
+- how to implement a CI/CD workflow using Code pipeline.
+- how to perform safe deployments using a deployment preference with SAM template.
