@@ -29,18 +29,13 @@ serverlessapibackendapp.png
 4. Enter a name for the application as ``serverless-start``
 5. Select runtime as Node.js 14.x
 6. We will use [AWS SAM](https://aws.amazon.com/serverless/sam/) for this application. Leave the Template format as AWS SAM(YAML).
-7. In the Source control section we will use CodeStar Connections to create a private repository in your GitHub account. Select ``Create new connection`` and click on Connect with CodeStar Connections.
-    ![awsconnectorgithub](/images/awsconnectorgithub.png)
-    ![githubinstallapp](/images/githubinstallapp.png)
-    ![installawsconnecttorgithub](/images/installawsconnecttorgithub.png)
-    ![connecttogithub](/images/connecttogithub.png)
-    ![sourcecontrolserverlessstart](/images/sourcecontrolserverlessstart.png)
+7. In the Source control section we will use CodeStar Connections to create a private repository in your GitHub account. Select ``Create new connection`` and click on Connect with CodeStar Connections and follow the screenshot.
+    ![codestartogithub](/images/codestartogithub.png)
 
 8. Check the ``Create roles and permissions boundary`` option under Permissions and click on Create. This will take a few minutes for the application to create. An API endpoint is created which is backed by a Lambda function and a Dynamo DB. 
-    ![awsserverlessapp](/images/awsserverlessapp.png)
-    ![codetablambda](/images/codetablambda.png)
+    ![serverlessappsetup](/images/serverlessappsetup.png)
 
-    The Architecture created is as below:
+    The Architecture created by the ``serverless-start`` app is as follows:
     ![serverlessArchitecture](/images/serverlessArchitecture.png)
 
 ### Step 2. Setting up the Code Repo and IDE
@@ -98,7 +93,7 @@ with
     };
 ```
 This results in code looking as below:
-![cloud9updateCode](cloud9updateCode.png)
+![cloud9updateCode](/images/cloud9updateCode.png)
 
 ### Step 3. Safe Deployments
 
@@ -153,3 +148,6 @@ This results in code looking as below:
     ![idnotfounderror](/images/idnotfounderror.png)
 
 ## Cleanup
+1. Navigate to Lambda Applications and delete ``serverless-start`` application. This will prompt you with detailed instructions on deleting the application. Follow the instructions to delete all associated resources.
+    ![deleteserverless](/images/deleteserverless.png)
+2. Navigate to the Cloud9 service and delete the ``cicdworkflowIDE`` environment.
