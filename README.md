@@ -7,11 +7,12 @@ This lab is provided as part of **[AWS Innovate - Modern Applications Edition](h
 This lab walks you through creating a CI/CD workflow for serveress applications. 
 ## Content 
 
-- Getting Started
-- Step 1. Deploying a lambda application
-- Step 2. Setting up the Code Repo and IDE
-- Step 3. Safe Deployments
-- Cleanup
+- [Getting Started](https://github.com/roshansthomas/cicdworkflowserverless#getting-started)
+- [Step 1. Deploying a lambda application](https://github.com/roshansthomas/cicdworkflowserverless#step-1-deploying-a-lambda-application)
+- [Step 2. Setting up the Code Repo and IDE](https://github.com/roshansthomas/cicdworkflowserverless#step-2-setting-up-the-code-repo-and-ide)
+- [Step 3. Safe Deployments](https://github.com/roshansthomas/cicdworkflowserverless#step-3-safe-deployments)
+- [Cleanup](https://github.com/roshansthomas/cicdworkflowserverless#cleanup)
+- [Summary](https://github.com/roshansthomas/cicdworkflowserverless#summary)
 
 
 ### Getting started
