@@ -13,6 +13,7 @@ This lab walks you through creating a CI/CD workflow for serveress applications.
 - [Step 3. Safe Deployments](https://github.com/roshansthomas/cicdworkflowserverless#step-3-safe-deployments)
 - [Cleanup](https://github.com/roshansthomas/cicdworkflowserverless#cleanup)
 - [Summary](https://github.com/roshansthomas/cicdworkflowserverless#summary)
+- [Survey](https://github.com/roshansthomas/cicdworkflowserverless#survey)
 
 
 ### Getting started
@@ -154,8 +155,10 @@ This results in code looking as below:
 2. Navigate to the Cloud9 service and delete the ``cicdworkflowIDE`` environment.
 
 ## Summary
-
 In this lab you learnt:
 - how to create a sample serverless application.
 - how to implement a CI/CD workflow using Code pipeline.
 - how to perform safe deployments using a deployment preference with SAM template.
+
+## Survey
+Please help us to provide your feedback [here](https://amazonmr.au1.qualtrics.com/jfe/form/SV_6x7UgBL9FHn59dA?Session=HOL3). Participants who complete the surveys from AWS Innovate Online Conference - Modern Applications Edition will receive a gift code for USD25 in AWS credits. AWS credits will be sent via email by 30 November, 2021.
