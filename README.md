@@ -1,8 +1,8 @@
 # Building CI/CD workflows for Serverless Applications
 
-This lab is provided as part of **[AWS Innovate - Modern Applications Edition](https://aws.amazon.com/events/aws-innovate/modern-apps/)**, click [here](https://google.com) to explore the full list of hands-on labs.
+This lab is provided as part of [AWS Innovate Modern Applications Edition](https://aws.amazon.com/events/aws-innovate/modern-apps/), click [here](https://github.com/phonghuule/aws-innovate-modern-applications) to explore the full list of hands-on labs.
 
-ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to minimize costs.
+ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
 This lab walks you through creating a CI/CD workflow for serveress applications. 
 ## Content 
